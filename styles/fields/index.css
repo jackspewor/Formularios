@@ -44,3 +44,11 @@ input[type="date"] {
 select {
     background: url(../../assets/icons/arrow-down-01.png) no-repeat right .75rem center/1rem;
 }
+
+.address .flex {
+    gap: 1.25rem
+}
+
+.input-wrapper:has([disabled]) {
+    opacity: .5;
+}
