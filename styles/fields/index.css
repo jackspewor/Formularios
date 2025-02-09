@@ -52,3 +52,8 @@ select {
 .input-wrapper:has([disabled]) {
     opacity: .5;
 }
+
+input[disabled] {
+    background-color: #E7E5E4;
+    color: var(--text-primary);
+}
